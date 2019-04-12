@@ -1,0 +1,19 @@
+.DS_Store
+/packages/*/out/
+node_modules/
+lerna-debug.log
+packages/electron-webpack/readme.md
+_book/
+packages/electron-webpack/scheme.json
+
+# to not exclude .js.snap (jest snapshots)
+/test/out/**/*.js
+/test/out/**/*.map
+
+.idea/workspace.xml
+.idea/shelf/
+
+/CHANGELOG.md
+yarn-error.log
+
+.renderer-index-template.html
